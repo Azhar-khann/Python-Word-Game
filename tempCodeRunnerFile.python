@@ -1,0 +1,49 @@
+s = 'hello'
+a = s.replace('h','y')
+#print(a)
+
+s = {}
+#if len(s.keys()) == 0:
+    #print('')
+    #print('empty')
+
+#user_input = input('Enter word, or "!!" to indicate that you are finished:')
+#print(user_input.lower())
+
+total = ''
+num = 20
+score = 'your score is' + ' ' + str(20) + ' ' +str(30) + ' ' +str(40)
+new  = 0
+
+#for i in score:
+    #if i.isdigit() and i != ' ':
+        #print(i)
+        #total += i
+    #if i == ' ' and total != '':
+        #print(total)
+        #new = new + int(total)
+        #print(new)
+        #total = ''
+
+score_list = []
+for i in score.split():
+    if i.isdigit():
+        score_list.append(int(i))
+
+        
+
+
+#for i in total:
+
+
+
+print(total)
+print(score_list)
+total_score = sum(score_list)
+print(total_score)
+
+
+
+        
+#print(new)
+#print(total)
